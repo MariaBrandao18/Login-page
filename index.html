@@ -5,48 +5,30 @@
         <meta charset="UTF-8">
         <meta name="author" content="Maria Brandão">
         <meta name="keywords" content="Html, Login, cachorro">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Página de Login </title>
+
+        <style>
+            html, body {
+                height: 100%;
+                margin: 0;
+                }   
+
+            object {
+                width: 100%;
+                height: 100%;
+                border: none;
+                }
+
+        </style>
     </head>
     <body>
-        <form action="server.php" method="get">
-                <div class="formulario">
-                    <h1><legend> Página de login </legend></h1>
-                    <div class="nome">
-                        <label for="txtname"> Nome completo </label> <br>
-                        <input type="text" id="txtnome" name="txtnome" placeholder="Nome" autofocus> <br> <br>
-                    </div>
-                    <div class="email">
-                        <label for="email"> E-mail: </label> <br>
-                        <input type="text" id="email" placeholder="E-mail de acesso"> <br> <br> 
-                    </div>
-                    <div class="bottom">
-                        <label for="genero"> Gênero </label> <br>
-                        <input type="radio" id="genero" value="F"> Feminino
-                        <input type="radio" value="M"> Masculino
-                        <input type="radio" value="N"> Outro <br> <br>
-                    </div>
-                    <div class="selecao">
-                        <label for="cidade"> Cidade: </label> <br>
-                        <select name="Cidade" id="cidade">
-                            <option value="" disabled selected>Selecione sua cidade</option>
-                            <option value="1"> Asa Sul </option>
-                            <option value="2"> Asa Norte </option>
-                            <option value="3"> Paranoá </option>
-                            <option value="4"> Itapuã </option>
-                            <option value="5"> Noroeste </option>
-                            <option value="6"> Sudoeste </option>
-                        </select> <br> <br>
-                    </div>
-                    <div class="data">
-                        <label for="data"> Data de Nascimento </label> <br>
-                        <input type="date" name="data"> <br> <br>
-                    </div>
-                    <div class="check">
-                        <input type="checkbox" id="remember" value="1">
-                        <label for="remember"> Lembrar-me </label>
-                    </div> <br>
-                    <button> Enviar </button>
-               </div>
-        </form>
+        <object data="login_page.html" type="text/html" width="100vw" height="100vh">
+            Seu navegador não suporta a exibição de objetos incorporados.
+            <a href="login_page.html">Clique aqui para visualizar o arquivo.</a>
+        </object>
     </body>
 </html>
+
+    
